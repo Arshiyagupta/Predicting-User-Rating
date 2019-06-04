@@ -21,7 +21,10 @@ given to the particular performance in 'distance.csv'. This file was called 'res
 Both these files are available on GitHub. This is done to avoid generating 15000 samples everytime.
 15000 sammples take about 24 hours to make because DTW is a slow process.
 
-4. Code for Random Forrest Classification model was downloaded from 
-https://stackabuse.com/classification-in-python-with-scikit-learn-and-pandas/
+4. Code for Random Forest Classification model was downloaded from 
+https://stackabuse.com/classification-in-python-with-scikit-learn-and-pandas/ and the model was run.
 When 'distance' and 'result' was fed into this model, a mean prediction accuracy of 0.69 was acheived. 
+Authors of this paper reported accuracy of 0.74.
 
+Random Forest Classification was chosen in this case because the available data set had just 40 unique melodies
+Random sets of trees made by random forests made up for diverity in data set. 
