@@ -2,11 +2,18 @@ In this Jupyter Notebook, I tried to replicate findings of the following paper
 
 https://pdfs.semanticscholar.org/7465/5a89427878ee237b103e657a1651bbf3d497.pdf
 
-
 Dataset was provided at the following URL by authors of the paper 
 
 https://github.com/barisbozkurt/MASTmelody_dataset
 
+Please download following dependencies for this code to work
+os
+scipy.spacial.distance
+fastdtw
+numpy
+random
+sklearn
+sklearn.ensemble
 
 Description of steps in Python Notebook
 1. The voice frequency data and piano frequency data were matched and Dynamic Time Warp 
